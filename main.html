@@ -3,23 +3,29 @@
     <head>
         <link rel="stylesheet" href="body.css">
     </head>
-    <script src = "" type="text/javascript"></script>
+    <script src = "tictactoe.js" type="text/javascript"></script>
     <body>
         <header>
             Tic-Tac-Toe
         </header>
-        <div id="main1">
-        <div id="block1"></div>
-        <div id="block2"></div>
-        <div id="block3"></div>
-        <br>
-        <div id="block4"></div>
-        <div id="block5"></div>
-        <div id="block6"></div>
-        <br>
-        <div id="block7"></div>
-        <div id="block8"></div>
-        <div id="block9"></div>
+        <div id="options">
+            What do you want?
+            <br>
+            <button id="x" onclick="myButton1()">X</button>
+            <button id="o" onclick="myButton2()">O</button>
+        </div>
+        <div id="main" onclick="brain()">
+            <div id="block1" onclick="changImg1()"></div>
+            <div id="block2" onclick="changImg2()"></div>
+            <div id="block3" onclick="changImg3()"></div>
+            <br>
+            <div id="block4" onclick="changImg4()"></div>
+            <div id="block5" onclick="changImg5()"></div>
+            <div id="block6" onclick="changImg6()"></div>
+            <br>
+            <div id="block7" onclick="changImg7()"></div>
+            <div id="block8" onclick="changImg8()"></div>
+            <div id="block9" onclick="changImg9()"></div>
         </div>
     </body>
 </html>
