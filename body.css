@@ -29,6 +29,7 @@ header {
     border-color: rgb(202, 160, 202) black black rgb(202, 160, 202);
     height: 100px;
     width: 100px;
+    margin: -2.5px;
 }
 
 #block2 {
@@ -38,6 +39,7 @@ header {
     border-color: rgb(202, 160, 202) black black black;
     height: 100px;
     width: 100px;
+    margin: -2.5px;
 }
 
 #block3 {
@@ -47,6 +49,7 @@ header {
     border-color: rgb(202, 160, 202) rgb(202, 160, 202) black black;
     height: 100px;
     width: 100px;
+    margin: -2.5px;
 }
 
 #block4 {
@@ -56,6 +59,7 @@ header {
     border-color: black black black rgb(202, 160, 202);
     height: 100px;
     width: 100px;
+    margin: -2.5px;
 }
 
 #block5 {
@@ -65,6 +69,7 @@ header {
     border-color: black black black black;
     height: 100px;
     width: 100px;
+    margin: -2.5px;
 }
 
 #block6 {
@@ -74,6 +79,7 @@ header {
     border-color: black rgb(202, 160, 202) black black;
     height: 100px;
     width: 100px;
+    margin: -2.5px;
 }
 
 #block7 {
@@ -83,6 +89,7 @@ header {
     border-color: black black rgb(202, 160, 202) rgb(202, 160, 202);
     height: 100px;
     width: 100px;
+    margin: -2.5px;
 }
 
 #block8 {
@@ -92,6 +99,7 @@ header {
     border-color: black black rgb(202, 160, 202) black;
     height: 100px;
     width: 100px;
+    margin: -2.5px;
 }
 
 #block9 {
@@ -101,4 +109,5 @@ header {
     border-color: black rgb(202, 160, 202) rgb(202, 160, 202) black;
     height: 100px;
     width: 100px;
+    margin: -2.5px;
 }
