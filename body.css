@@ -1,46 +1,65 @@
+body {
+    background-color: rgb(202, 160, 202);
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    background-image: linear-gradient(to bottom right,rgb(199, 98, 199),rgb(233, 233, 84));
+}
+
+#main1 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
 #block1 {
     display: inline-block;
-    background: white;
     border-width: 5px;
     border-style: solid;
-    border-color: white black black white;
+    border-color: rgb(202, 160, 202) black black rgb(202, 160, 202);
     height: 100px;
     width: 100px;
 }
 
 #block2 {
     display: inline-block;
-    background: white;
     border-width: 5px;
     border-style: solid;
-    border-color: white black black black;
+    border-color: rgb(202, 160, 202) black black black;
     height: 100px;
     width: 100px;
 }
 
 #block3 {
     display: inline-block;
-    background: white;
     border-width: 5px;
     border-style: solid;
-    border-color: white white black black;
+    border-color: rgb(202, 160, 202) rgb(202, 160, 202) black black;
     height: 100px;
     width: 100px;
 }
 
 #block4 {
     display: inline-block;
-    background: white;
     border-width: 5px;
     border-style: solid;
-    border-color: black black black white;
+    border-color: black black black rgb(202, 160, 202);
     height: 100px;
     width: 100px;
 }
 
 #block5 {
     display: inline-block;
-    background: white;
     border-width: 5px;
     border-style: solid;
     border-color: black black black black;
@@ -50,40 +69,36 @@
 
 #block6 {
     display: inline-block;
-    background: white;
     border-width: 5px;
     border-style: solid;
-    border-color: black white black black;
+    border-color: black rgb(202, 160, 202) black black;
     height: 100px;
     width: 100px;
 }
 
 #block7 {
     display: inline-block;
-    background: white;
     border-width: 5px;
     border-style: solid;
-    border-color: black black white white;
+    border-color: black black rgb(202, 160, 202) rgb(202, 160, 202);
     height: 100px;
     width: 100px;
 }
 
 #block8 {
     display: inline-block;
-    background: white;
     border-width: 5px;
     border-style: solid;
-    border-color: black black white black;
+    border-color: black black rgb(202, 160, 202) black;
     height: 100px;
     width: 100px;
 }
 
 #block9 {
     display: inline-block;
-    background: white;
     border-width: 5px;
     border-style: solid;
-    border-color: black white white black;
+    border-color: black rgb(202, 160, 202) rgb(202, 160, 202) black;
     height: 100px;
     width: 100px;
 }
