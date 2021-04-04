@@ -11,14 +11,6 @@ header {
     background-image: linear-gradient(to bottom right,rgb(199, 98, 199),rgb(233, 233, 84));
 }
 
-#options {
-    width: 350px;
-    height: 350px;
-    position: absolute;
-    top: 20%;
-    left: 45%;
-}
-
 #main {
     width: 350px;
     height: 350px;
